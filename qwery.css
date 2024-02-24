@@ -1,0 +1,325 @@
+/*------------------ common css start ------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #000000;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*------------------ common css end ------------------*/
+
+/*------------------ nav bar start ------------------*/
+nav{
+    margin-top: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+nav .box1 ul{
+    display: flex;
+    gap: 60px;
+}
+nav .box1 ul li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+nav ul li:hover{
+    color: #000000;
+}
+/*------------------ nav bar end ------------------*/
+
+/*------------------ banner start ------------------*/
+#banner{
+    width: 100%;
+    background: url(../images/image2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 462px 300px;
+}
+#banner h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 7px;
+    color: #FFC178;
+}
+#banner h1{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+#banner h2{
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    color: #FFFFFF;
+} 
+/*------------------ banner end ------------------*/
+
+/*------------------ about start ------------------*/
+#about{
+    width: 100%;
+}
+#about .container{
+    display: flex;
+    gap: 19px;
+    width: 1320px;
+    margin: auto;
+    margin-top: 314px;
+}
+.text-area2 h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 83px;
+}
+.text-area2 h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 496px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+.text-area2 p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 587px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+.text-area2 a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-top: 66px;
+
+}
+/*------------------ about end ------------------*/
+
+/*------------------ steady start ------------------*/
+#steady{
+    width: 100%;
+}
+#steady .container{
+    background-image: url(../images/image3.jpg);
+    width: 1320px;
+    height: 964.92px;
+    margin-top: 300px;
+}
+.text-area3{
+    text-align: center;
+    padding-top: 559px;
+}
+.text-area3 h4{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+    
+}
+.text-area3 h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 932px;
+    margin: auto;
+    margin-top: 13px;
+    
+}
+.text-area3 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 893px;
+    margin: auto;
+    margin-top: 14px;
+    
+}
+.text-area3 a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-top: 26px;
+    
+}
+/*------------------ steady end ------------------*/
+
+/*------------------ culture start ------------------*/
+#culture{
+    width: 100%;
+}
+#culture .container{
+    width: 1320px;
+    display: flex;
+    gap: 37px;
+    margin-top: 295px;
+}
+.text-area4{
+padding-top: 153px;
+}
+.text-area4 h4{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+.text-area4 h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 663px;
+    margin-top: 19px;
+}
+.text-area4 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 655px;
+    margin-top: 19px;
+}
+.text-area4 a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-top: 47px;
+}
+/*------------------ culture end ------------------*/
+
+/*------------------ footer start ------------------*/
+#footer{
+    width: 100%;
+}
+#footer .container{
+    width: 1320px;
+    margin-top: 199px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top img{
+    width: 173px;
+    height: 65px;
+}
+.footer-top .button{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.button h4{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+.button button{
+    background: #FFA343;
+    width: 232px;
+    height: 59px;
+    border-width: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-center .left h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    width: 405px;
+    margin-top: 82px;
+}
+.footer-center .left h4{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 49px;
+}
+.footer-center .icon{
+    color: white !important;
+    
+    width: 116.41px;
+    height: 16.13px;
+}
+.footer-center .right{
+    display: flex;
+    margin-top: 58.88px;
+    width: 648px;
+}
+.footer-center .right h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    color: #FFD1A0;
+    margin-bottom: 2px;
+}
+.footer-center .right li{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2 px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 9px;
+}
+.footer-center .right .list1{
+    margin-left: 5px;
+}
+.footer-center .right .list2{
+    margin-left: 84px;
+}
+.footer-center .right .list3{
+    margin-left: 139px;
+}
+.footer-copyright{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 153px;
+}
+/*------------------ footer end ------------------*/
